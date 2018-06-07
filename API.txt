@@ -1,0 +1,42 @@
+//ingreso de candidatos/Administrador
+POST /api/v2/ingresoCandidatos
+{
+	"id":"1",
+	"Nombre":"Juan Ricardo",
+	"Apellido":"Cavieres Soto",
+	"Partido":"",
+	
+	"id":"2",
+	"Nombre":"Berny ",
+	"Apellido":"Antilaf",
+	"Partido":"",
+}
+
+//ver Candidatos
+GET /api/v2/verCandidatos
+{
+[
+    {
+      "id":"1"; //id del candidato
+      ]
+[
+	"id":"2"
+	]
+
+}
+
+//para votar
+POST /api/v2/votos
+{
+	"id":"1",
+	"Voto":"2", //id del candidato
+}
+
+//ingreso de la persona que vota
+post /api/v2/personaVotante
+{
+	"Rut":"1241344-4",
+	"Nombre":"Maria",
+	"Apellido":"Cavieres",
+}
+
